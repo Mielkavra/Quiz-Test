@@ -33,10 +33,10 @@ int main() {
         char choice;
         scanf(" %c", &choice); // Note the space before %c to clear any leftover whitespace/newlines
 
-        // Convert lowercase input (a, b, c, d) to uppercase (A, B, C, D)
+        //Convert lowercase input (a, b, c, d) to uppercase (A, B, C, D)
         choice = toupper(choice);
 
-        // Convert the letter back to an index (0 to 3)
+        //Convert the letter back to an index (0 to 3)
         int user_index = choice - 'A';
 
         //Check if the answer matches the correct option index
